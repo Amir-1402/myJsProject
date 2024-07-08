@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p id="text" class="highlight">This is a sample paragraph.</p>
+    <input type="text" id="classInput" placeholder="Enter class name">
+    <button onclick="addClass()">Add Class</button>
+
+    <section>
+        <p id="para1" class="visible">Paragraph 1</p>
+        <p id="para2" class="visible">Paragraph 2</p>
+        <p id="para3" class="visible">Paragraph 3</p>
+
+        <button onclick="toggleVisibility('para1')">Toggle Paragraph 1</button>
+        <button onclick="toggleVisibility('para2')">Toggle Paragraph 2</button>
+        <button onclick="toggleVisibility('para3')">Toggle Paragraph 3</button>
+    </section>
+
+    <section>
+        <button id="clickButton" onclick="changeButton()">Click me</button>
+    </section>
+
+    <script src="js.js"></script>
+
+</body>
+</html>
